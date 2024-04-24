@@ -926,3 +926,22 @@ vendors:
 css: css
 js: js
 images: images
+
+giscus:
+  enable: true
+  repo: Rayminn/Rayminn.github.io # Github repository name
+  repo_id: R_kgDOLyoHvA # Github repository id
+  category: Announcements # Github discussion category
+  category_id: DIC_kwDOLyoHvM4Ce7H7 # Github discussion category id
+  # Available values: pathname | url | title | og:title
+  mapping: title
+  # Available values: 0 | 1 
+  reactions_enabled: 1
+   # Available values: 0 | 1 
+  emit_metadata: 0
+  # Available values: light | dark | dark_high_contrast | transparent_dark | 
+  theme: preferred-color-scheme
+  # Available values: en | zh-CN
+  lang: zh-CN
+  # Available value: anonymous
+  crossorigin: anonymous
