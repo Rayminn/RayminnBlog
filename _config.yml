@@ -3,8 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Rayminn Blog
-subtitle: '社畜Rayminn的窝点'
+title: Rayminn的小破站
+subtitle: '怀揣理想 拥抱时代'
 description: ''
 keywords:
 author: Rayminn
@@ -22,7 +22,7 @@ pretty_urls:
 
 # Directory
 source_dir: source
-public_dir: public
+public_dir: docs
 tag_dir: tags
 archive_dir: archives
 category_dir: categories
