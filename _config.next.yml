@@ -67,7 +67,7 @@ creative_commons:
   license: by-nc-sa
   # Available values: big | small
   size: small
-  sidebar: false
+  sidebar: true
   post: false
   # You can set a language value if you prefer a translated version of CC license, e.g. deed.zh
   # CC licenses are available in 39 languages, you can find the specific and correct abbreviation you need on https://creativecommons.org
@@ -99,7 +99,7 @@ menu:
   home: / || fa fa-home
   about: /about/ || fa fa-user
   tags: /tags/ || fa fa-tags
-  #categories: /categories/ || fa fa-th
+  categories: /categories/ || fa fa-th
   archives: /archives/ || fa fa-archive
   # schedule: /schedule/ || fa fa-calendar
   #sitemap: /sitemap.xml || fa fa-sitemap
@@ -141,9 +141,9 @@ sidebar:
 # Sidebar Avatar
 avatar:
   # Replace the default image and set the url here.
-  url: #/images/avatar.gif
+  url: https://avatars.githubusercontent.com/u/98998872
   # If true, the avatar will be displayed in circle.
-  rounded: false
+  rounded: true
   # If true, the avatar will be rotated with the cursor.
   rotated: false
 
@@ -177,7 +177,7 @@ links_settings:
   layout: block
 
 links:
-  #Title: https://example.com
+  # Title: https://example.com
 
 # Table of Contents in the Sidebar
 # Front-matter variable (nonsupport wrap expand_all).
