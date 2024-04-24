@@ -1,6 +1,8 @@
-yarn.lock
-package-lock.json
-node_modules/
-db.json
-public/
 .DS_Store
+Thumbs.db
+db.json
+*.log
+node_modules/
+public/
+.deploy*/
+_multiconfig.yml
