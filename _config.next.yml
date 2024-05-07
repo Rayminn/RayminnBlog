@@ -101,6 +101,7 @@ menu:
   tags: /tags/ || fa fa-tags
   categories: /categories/ || fa fa-th
   archives: /archives/ || fa fa-archive
+  友链: /links/ || fa fa-link
   # schedule: /schedule/ || fa fa-calendar
   #sitemap: /sitemap.xml || fa fa-sitemap
   #commonweal: /404/ || fa fa-heartbeat
@@ -156,7 +157,7 @@ site_state: true
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 social:
   GitHub: https://github.com/Rayminn || fab fa-github
-  E-Mail: mailto:coconut.dog@rayminn.top || fa fa-envelope
+  E-Mail: mailto:leiyiming@rayminn.top || fa fa-envelope
   #Weibo: https://weibo.com/yourname || fab fa-weibo
   #Twitter: https://twitter.com/yourname || fab fa-twitter
   #FB Page: https://www.facebook.com/yourname || fab fa-facebook
@@ -178,8 +179,7 @@ links_settings:
 
 links:
   # Title: https://example.com
-  KanroMiku: https://www.kanromiku.top
-  Frederick: https://www.ohdragonboi.cn/
+  Rayminn's Homepage: https://www.rayminn.top
 
 # Table of Contents in the Sidebar
 # Front-matter variable (nonsupport wrap expand_all).
