@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Rayminn的小破站</title>
+    <link>https://blog.rayminn.top/</link>
+    
+    <atom:link href="https://blog.rayminn.top/rss2.xml" rel="self" type="application/rss+xml"/>
+    
+    <description></description>
+    <pubDate>Mon, 06 May 2024 21:05:53 GMT</pubDate>
+    <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>“神秘”的暗网——Tor网络访问指南</title>
+      <link>https://blog.rayminn.top/tor-web/</link>
+      <guid>https://blog.rayminn.top/tor-web/</guid>
+      <pubDate>Tue, 07 May 2024 00:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;我们大家都知道Wikipedia、Google、Amazon、YouTube 和 Facebook 等网站，但他们只是互联网的一小部分。除了那些受欢迎的网站之外，还有一些网站是隐藏的，而且一般公众不易进入。这种网站的存在处就被称为暗网（Dark Web）和深网（Deep Web）。&lt;/p&gt;
+&lt;p&gt;暗网是隐藏 IP 地址的加密网络上的一组网站的统称，所有这些都为用户提供了强大的匿名保护。由于它们没有被传统的搜索引擎索引，你只能通过特殊的匿名浏览器（如 I2P、Freenet 和最常见也是本文将介绍的洋葱路由器（TOR））访问它们。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;本文纯科普向！！！&lt;/strong&gt;&lt;/p&gt;</description>
+      
+      
+      
+      <content:encoded><![CDATA[<p>我们大家都知道Wikipedia、Google、Amazon、YouTube 和 Facebook 等网站，但他们只是互联网的一小部分。除了那些受欢迎的网站之外，还有一些网站是隐藏的，而且一般公众不易进入。这种网站的存在处就被称为暗网（Dark Web）和深网（Deep Web）。</p><p>暗网是隐藏 IP 地址的加密网络上的一组网站的统称，所有这些都为用户提供了强大的匿名保护。由于它们没有被传统的搜索引擎索引，你只能通过特殊的匿名浏览器（如 I2P、Freenet 和最常见也是本文将介绍的洋葱路由器（TOR））访问它们。</p><p><strong>本文纯科普向！！！</strong></p><span id="more"></span><h1 id="什么是暗网"><a class="markdownIt-Anchor" href="#什么是暗网"></a> 什么是暗网</h1><blockquote><p>摘自<a href="https://zh.wikipedia.org/wiki/%E9%BB%91%E6%9A%97%E7%BD%91%E7%AB%99">wikipedia</a>:黑暗网络网站只能通过Tor（“洋葱路由”项目）和I2P（“隐形网计划”）等网络访问。黑暗网络用户广泛使用Tor浏览器和Tor可访问的站点，站点可以通过“.onion”域名识别。Tor专注于提供对互联网的匿名访问，而I2P则专注于匿名网站托管。分层加密系统使得黑暗网络用户的身份和位置保持匿名，无法被追踪。黑暗网络加密技术通过大量中间服务器发送用户数据，保护了用户身份并保障匿名。传输的信息只能由路径中的后续节点解密，而这些节点通向出口节点。因为系统过于复杂，所以几乎不可能再生节点路径并逐层解密信息。由于高层次的加密，网站无法跟踪其用户的地理位置和IP，用户也无法获取网站主机的有关信息。因此，黑暗网络用户之间的通信是高度加密的，允许用户以保密方式交流、发博客以及共享文件。</p></blockquote><p>深网是不能被搜索引擎索引的网站的统称，其中包括了很多的网站，比如电子邮件、微信、网上银行等。显然深网的数量比表层网中多了数倍。而暗网是深网的一部分，它是一种隐藏性更强的网络，只能通过特殊的浏览器访问。</p><p><img src="https://raw.githubusercontent.com/Rayminn/img/main/bingshan.jpg" alt="冰山" /></p><blockquote><p>网络空间就像冰山一样，只有一小部分（表层网）暴露在表面，而大部分（深网和暗网）都隐藏在水下。</p></blockquote><h1 id="关于tor"><a class="markdownIt-Anchor" href="#关于tor"></a> 关于Tor</h1><h2 id="什么是tor浏览器"><a class="markdownIt-Anchor" href="#什么是tor浏览器"></a> 什么是Tor浏览器</h2><p>Tor浏览器是一个免费的开源网络浏览器，允许用户匿名访问互联网。Tor 是“洋葱路由”（The Onion Router）的缩写，通过层层加密，把你的数据随机发送到世界各地的服务器网络，多重代理可防止你的身份被追踪。这种加密方式类似多层的洋葱，这也是Tor的名称由来。</p><p>使用Tor其实并不像想象中的困难，只需要下载Tor浏览器并像正常浏览器一样使用即可。</p><h2 id="tor浏览器下载"><a class="markdownIt-Anchor" href="#tor浏览器下载"></a> Tor浏览器下载</h2><p><a href="https://www.torproject.org/download/">官方下载地址</a></p><p><strong>不要相信任何第三方地址！！！</strong></p><h2 id="tor浏览器配置"><a class="markdownIt-Anchor" href="#tor浏览器配置"></a> Tor浏览器配置</h2><p>Tor默认配置即可自动获取代理，但在某些情况下你可能无法直接连接，这时可以尝试以下两种方法：</p><h3 id="使用代理"><a class="markdownIt-Anchor" href="#使用代理"></a> 使用代理</h3><p>能看到这篇文章并成功下载Tor浏览器的你应该具备一定<strong>魔法上网</strong>的能力，但Tor浏览器默认是不经过系统代理的，此时最简单粗暴的方法就是开启clash的TUN模式，但这样会导致设备所有流量均被代理。</p><p>如果不想这样，可以选择手动配置代理：</p><p>进入设置——连接——高级——配置Tor浏览器连接方式，并按如下配置:</p><p><img src="https://raw.githubusercontent.com/Rayminn/img/main/tor-web-1.png" alt="tor-web-1" /></p><p>有些人的端口号可能是1080或者随机，这个取决于代理软件。</p><h3 id="使用网桥并不推荐"><a class="markdownIt-Anchor" href="#使用网桥并不推荐"></a> 使用网桥（并不推荐）</h3><p>网桥是一种特殊的Tor服务器，可以帮助你部分魔法上网。如果你无法直接连接Tor，可以尝试使用网桥。</p><p>进入设置——连接——请求网桥——选择一个网桥——连接</p><p>但是这种做法依然很慢。。。</p><h1 id="访问网站"><a class="markdownIt-Anchor" href="#访问网站"></a> 访问网站</h1><p>到了这步就获得了进入暗网的能力，但是你可能会发现，你并不知道有哪些网站可以访问。这就像你获得了一把钥匙，但不知道门在哪里。</p><p>有些网站除了提供表层网服务外，还提供暗网服务，但并不是为了掩盖服务内容，而是为了使用户确保自身隐私性。比如Tor浏览器的默认搜索引擎<a href="https://duckduckgo.com/">DuckDuckGo</a>，它的暗网地址是<code>https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/</code>。与其类似的网站还有：Facebook、Protonmail等。</p><p>此外，还存在一些暗网网站目录、论坛、搜索引擎等，但本文不提供、不推荐、也不鼓励访问这些网站。</p><p><strong>任何访问本文未提供的网站及其衍生的行为与本文平台及作者无关！！！</strong></p><h1 id="关于暗网的一些看法"><a class="markdownIt-Anchor" href="#关于暗网的一些看法"></a> 关于暗网的一些看法</h1><ul><li><p>暗网并不完全是传闻中神秘而危险的地方，它只是一个难以监管的网络，对于暗网我们应保持辩证的看法。确保自身不去访问其中危险的内容，合理学习即可。</p></li><li><p>暗网<strong>并不是</strong>一个完全匿名的网络，只是相对于表层网而言，暗网更难被追踪。在暗网上进行黑灰活动仍然会被追踪。</p></li><li><p>再次强调，本文内容仅供学习科普，不鼓励访问暗网，也不对访问暗网产生的任何后果负责！！！</p></li></ul>]]></content:encoded>
+      
+      
+      <category domain="https://blog.rayminn.top/categories/%E7%A7%91%E6%99%AE/">科普</category>
+      
+      
+      <category domain="https://blog.rayminn.top/tags/%E7%BD%91%E7%BB%9C/">网络</category>
+      
+      
+      <comments>https://blog.rayminn.top/tor-web/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>zkw线段树</title>
+      <link>https://blog.rayminn.top/zkw-seg-tree/</link>
+      <guid>https://blog.rayminn.top/zkw-seg-tree/</guid>
+      <pubDate>Thu, 25 Apr 2024 00:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;建站时本人正于高三，也就是OI和ICPC的空档期，不知道该写什么，最后选择写本人最擅长的数据结构：非递归线段树。&lt;/p&gt;</description>
+      
+      
+      
+      <content:encoded><![CDATA[<p>建站时本人正于高三，也就是OI和ICPC的空档期，不知道该写什么，最后选择写本人最擅长的数据结构：非递归线段树。</p><span id="more"></span><h1 id="前言"><a class="markdownIt-Anchor" href="#前言"></a> 前言</h1><p>非递归线段树，是通过建树时将树建为满二叉树，从而利用满二叉树特性，实现<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>O</mi><mo stretchy="false">(</mo><mn>1</mn><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">O(1)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.02778em;">O</span><span class="mopen">(</span><span class="mord">1</span><span class="mclose">)</span></span></span></span>查询叶节点，自下而上通过循环完成操作。虽然看起来建满二叉树会导致占用空间变大，但实际上经典线段树也要为了避免<code>MLE</code>开四倍空间，所以二者空间复杂度区别并不大。并且循环时间复杂度明显小于递归，所以非递归线段树平均时间复杂度远小于经典线段树。</p><h1 id="满二叉树"><a class="markdownIt-Anchor" href="#满二叉树"></a> 满二叉树</h1><p>需要求得一个常数<code>p</code>，作为树叶子节点的第一个，即可快速定位到所有叶子节点。</p><p><code>p</code>的求法：</p><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span>(p=<span class="number">1</span>;p&lt;n+<span class="number">2</span>;p++);</span><br></pre></td></tr></table></figure><p>烂尾待补。。。</p>]]></content:encoded>
+      
+      
+      <category domain="https://blog.rayminn.top/categories/ICPC-OI/">ICPC/OI</category>
+      
+      
+      <category domain="https://blog.rayminn.top/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">数据结构</category>
+      
+      
+      <comments>https://blog.rayminn.top/zkw-seg-tree/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Hello World</title>
+      <link>https://blog.rayminn.top/hello-world/</link>
+      <guid>https://blog.rayminn.top/hello-world/</guid>
+      <pubDate>Wed, 24 Apr 2024 13:30:43 GMT</pubDate>
+      
+      <description>&lt;p&gt;更换博客主题（实际就是闲的没事删库重建）&lt;/p&gt;</description>
+      
+      
+      
+      <content:encoded><![CDATA[<p>更换博客主题（实际就是闲的没事删库重建）</p><span id="more"></span><p>或许很久不会改了…吧</p><p>添加<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>L</mi><mi>a</mi><mi>T</mi><mi>e</mi><mi>X</mi></mrow><annotation encoding="application/x-tex">LaTeX</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathnormal">L</span><span class="mord mathnormal">a</span><span class="mord mathnormal" style="margin-right:0.13889em;">T</span><span class="mord mathnormal">e</span><span class="mord mathnormal" style="margin-right:0.07847em;">X</span></span></span></span>支持（执着）</p><p>添加友链页面</p>]]></content:encoded>
+      
+      
+      
+      
+      <comments>https://blog.rayminn.top/hello-world/#disqus_thread</comments>
+      
+    </item>
+    
+  </channel>
+</rss>
