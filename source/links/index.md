@@ -92,3 +92,20 @@ title: 友情链接
 </div>
 
 友链申请-->[邮箱](mailto:leiyiming@rayminn.top)或在评论区留言，请附上网站名称、地址、简介和头像链接。
+
+# 友链朋友圈
+
+<!-- 挂载友链朋友圈的容器 -->
+<div class="post-content">
+<div id="cf-container">Loading...</div>
+</div>
+<!-- 加样式和功能代码 -->
+<!-- 将apiurl改成你后端生成的api地址 -->
+<script type="text/javascript">
+  var fdataUser = {
+    apiurl: 'https://friends-circle.rayminn.top/'
+  }
+</script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Rayminn/img/cdn/fcircle.css">
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/Rayminn/img/cdn/fcircle-rb.js"></script>
