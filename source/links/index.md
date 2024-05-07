@@ -2,6 +2,8 @@
 title: 友情链接
 ---
 
+# 友链卡片
+
 <div class="post-body">
    <div id="links">
       <style>
@@ -91,8 +93,6 @@ title: 友情链接
    </div>
 </div>
 
-友链申请-->[邮箱](mailto:leiyiming@rayminn.top)或在评论区留言，请附上网站名称、地址、简介和头像链接。
-
 # 友链朋友圈
 
 <!-- 挂载友链朋友圈的容器 -->
@@ -109,3 +109,10 @@ title: 友情链接
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Rayminn/img/cdn/fcircle.css">
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/Rayminn/img/cdn/fcircle-rb.js"></script>
+
+
+# 互加友链
+
+[邮箱](mailto:leiyiming@rayminn.top)或在评论区留言，请附上网站名称、地址、简介和头像链接。
+
+互加友链朋友圈请附带`rss`链接。
