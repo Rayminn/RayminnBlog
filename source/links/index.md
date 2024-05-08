@@ -79,6 +79,15 @@ title: 友情链接
                   <div class="info">Kanromiku的杂货铺</div>
                </div>
             </div>
+            <div class="card">
+               <img class="ava" src="https://www.ohdragonboi.cn/images/%E5%93%88%E5%93%88.jpg" />
+               <div class="card-header">
+                  <div>
+                     <a href="https://www.ohdragonboi.cn">Oktica窝窝</a>
+                  </div>
+                  <div class="info">多试试，总能找到什么</div>
+               </div>
+            </div>
             <!-- <div class="card">
                <img class="ava" src="$avatar" />
                <div class="card-header">
@@ -95,12 +104,10 @@ title: 友情链接
 
 # 友链朋友圈
 
-<!-- 挂载友链朋友圈的容器 -->
 <div class="post-content">
 <div id="cf-container">Loading...</div>
 </div>
-<!-- 加样式和功能代码 -->
-<!-- 将apiurl改成你后端生成的api地址 -->
+
 <script type="text/javascript">
   var fdataUser = {
     apiurl: 'https://friends-circle.rayminn.top/'
