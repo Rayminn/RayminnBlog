@@ -115,8 +115,7 @@ title: 友情链接
 </script>
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Rayminn/img/cdn/fcircle.css">
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/Rayminn/img/cdn/fcircle-rb.js"></script>
-
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/Rayminn/img/cdn/fcircle-a.js"></script>
 
 # 互加友链
 
