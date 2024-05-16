@@ -28,13 +28,13 @@ SCNet 是继东数西算工程后，由部委指导并发起成立的联合体�
 
 # 友商对比
 
-![scnet1](https://raw.githubusercontent.com/Rayminn/img/main/scnet1.png)
+![![scnet1](https://raw.githubusercontent.com/Rayminn/img/main/scnet1.png)](https://cdn.jsdelivr.net/gh/Rayminn/img/scnet1.png)
 
-![scnet2](https://raw.githubusercontent.com/Rayminn/img/main/scnet2.png)
+![![scnet2](https://raw.githubusercontent.com/Rayminn/img/main/scnet2.png)](https://cdn.jsdelivr.net/gh/Rayminn/img/scnet2.png)
 
 租赁GPU价格普遍较高，较为广泛应用的[AutoDL](https://www.autodl.com/)中，24GB显存价格为2.29元/卡\*时，在SCNet中，32GB异构计算价格为2元/卡\*时(但16GB也是此价格，对此笔者表示不理解)。
 
-![scnet3](https://raw.githubusercontent.com/Rayminn/img/main/scnet3.png)
+![![scnet3](https://raw.githubusercontent.com/Rayminn/img/main/scnet3.png)](https://cdn.jsdelivr.net/gh/Rayminn/img/scnet3.png)
 
 上图的实例提供免费试用，写作本文时每个CPU实例提供2000核时，DCU实例提供200核时（经试验同一实例的不同地区可以重复申请试用）。
 
