@@ -7,8 +7,6 @@ tag:
 - 算法
 ---
 
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=436346833&auto=0&height=66"></iframe>
-
 > OIer入门数模竞赛代码手之路
 
 在生产实践中，经常会遇到如何利用现有资源安排生成，以取得最大效益的问题。运筹学的一个重要分支——数学规划应运而生，它是一种通过数学方法来解决实际问题的方法。线性规划是数学规划的一个重要分支，它是一种在给定约束条件下，求解线性目标函数最优值的方法。

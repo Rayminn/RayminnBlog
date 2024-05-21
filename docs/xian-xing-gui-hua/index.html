@@ -20,16 +20,16 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"blog.rayminn.top","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.19.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":"default"},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="OIer入门数模竞赛代码手之路  在生产实践中，经常会遇到如何利用现有资源安排生成，以取得最大效益的问题。运筹学的一个重要分支——数学规划应运而生，它是一种通过数学方法来解决实际问题的方法。线性规划是数学规划的一个重要分支，它是一种在给定约束条件下，求解线性目标函数最优值的方法。  本系列偏代码向，入门之前需要了解一些基本的数学知识，如线代、微积分等。本系列（由于一些懂得都懂的原因）以Pyth">
+    <meta name="description" content="OIer入门数模竞赛代码手之路  在生产实践中，经常会遇到如何利用现有资源安排生成，以取得最大效益的问题。运筹学的一个重要分支——数学规划应运而生，它是一种通过数学方法来解决实际问题的方法。线性规划是数学规划的一个重要分支，它是一种在给定约束条件下，求解线性目标函数最优值的方法。  本系列偏代码向，入门之前需要了解一些基本的数学知识，如线代、微积分等。本系列（由于一些懂得都懂的原因）以Pytho">
 <meta property="og:type" content="article">
 <meta property="og:title" content="数模算法之线性规划">
 <meta property="og:url" content="https://blog.rayminn.top/xian-xing-gui-hua/index.html">
 <meta property="og:site_name" content="Rayminn的小破站">
-<meta property="og:description" content="OIer入门数模竞赛代码手之路  在生产实践中，经常会遇到如何利用现有资源安排生成，以取得最大效益的问题。运筹学的一个重要分支——数学规划应运而生，它是一种通过数学方法来解决实际问题的方法。线性规划是数学规划的一个重要分支，它是一种在给定约束条件下，求解线性目标函数最优值的方法。  本系列偏代码向，入门之前需要了解一些基本的数学知识，如线代、微积分等。本系列（由于一些懂得都懂的原因）以Pyth">
+<meta property="og:description" content="OIer入门数模竞赛代码手之路  在生产实践中，经常会遇到如何利用现有资源安排生成，以取得最大效益的问题。运筹学的一个重要分支——数学规划应运而生，它是一种通过数学方法来解决实际问题的方法。线性规划是数学规划的一个重要分支，它是一种在给定约束条件下，求解线性目标函数最优值的方法。  本系列偏代码向，入门之前需要了解一些基本的数学知识，如线代、微积分等。本系列（由于一些懂得都懂的原因）以Pytho">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/Rayminn/img/xxgh-1.jpg">
 <meta property="article:published_time" content="2024-05-16T00:00:00.000Z">
-<meta property="article:modified_time" content="2024-05-16T02:33:50.120Z">
+<meta property="article:modified_time" content="2024-05-18T01:46:54.002Z">
 <meta property="article:author" content="Yiming Lei">
 <meta property="article:tag" content="算法">
 <meta name="twitter:card" content="summary">
@@ -132,7 +132,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">5</span>
+          <span class="site-state-item-count">6</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -172,7 +172,13 @@
         </div>
         <ul class="links-of-blogroll-list">
             <li class="links-of-blogroll-item">
-              <a href="https://www.rayminn.top/" title="https:&#x2F;&#x2F;www.rayminn.top" rel="noopener" target="_blank">Rayminn's Homepage</a>
+              <a href="https://www.rayminn.top/" title="https:&#x2F;&#x2F;www.rayminn.top" rel="noopener" target="_blank">Homepage</a>
+            </li>
+            <li class="links-of-blogroll-item">
+              <a href="http://61.180.148.52:1001/d/HSDFZ/user/3" title="http:&#x2F;&#x2F;61.180.148.52:1001&#x2F;d&#x2F;HSDFZ&#x2F;user&#x2F;3" rel="noopener" target="_blank">HSDFZOJ</a>
+            </li>
+            <li class="links-of-blogroll-item">
+              <a href="https://t.me/rayminn_lym" title="https:&#x2F;&#x2F;t.me&#x2F;rayminn_lym" rel="noopener" target="_blank">Telegram</a>
             </li>
         </ul>
       </div>
@@ -243,8 +249,7 @@
     
     
     
-    <div class="post-body" itemprop="articleBody"><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=436346833&auto=0&height=66"></iframe>
-<blockquote>
+    <div class="post-body" itemprop="articleBody"><blockquote>
 <p>OIer入门数模竞赛代码手之路</p>
 </blockquote>
 <p>在生产实践中，经常会遇到如何利用现有资源安排生成，以取得最大效益的问题。运筹学的一个重要分支——数学规划应运而生，它是一种通过数学方法来解决实际问题的方法。线性规划是数学规划的一个重要分支，它是一种在给定约束条件下，求解线性目标函数最优值的方法。</p>
@@ -562,6 +567,9 @@ x_i \geq 0
                 </a>
             </div>
             <div class="post-nav-item">
+                <a href="/cha-zhi-yu-ni-he/" rel="next" title="数模算法之插值与拟合">
+                  数模算法之插值与拟合 <i class="fa fa-angle-right"></i>
+                </a>
             </div>
           </div>
     </footer>

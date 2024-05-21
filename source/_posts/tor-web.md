@@ -7,8 +7,6 @@ tag:
 - 网络
 ---
 
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1912597869&auto=0&height=66"></iframe>
-
 我们大家都知道Wikipedia、Google、Amazon、YouTube 和 Facebook 等网站，但他们只是互联网的一小部分。除了那些受欢迎的网站之外，还有一些网站是隐藏的，而且一般公众不易进入。这种网站的存在处就被称为暗网（Dark Web）和深网（Deep Web）。
 
 暗网是隐藏 IP 地址的加密网络上的一组网站的统称，所有这些都为用户提供了强大的匿名保护。由于它们没有被传统的搜索引擎索引，你只能通过特殊的匿名浏览器（如 I2P、Freenet 和最常见也是本文将介绍的洋葱路由器（TOR））访问它们。

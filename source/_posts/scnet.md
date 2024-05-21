@@ -8,8 +8,6 @@ tag:
 - 算力
 ---
 
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1363948882&auto=0&height=66"></iframe>
-
 > 算力是AI时代的石油
 
 要想对AI大模型部署、训练、调参，需要大量的算力，难以在本地部署。一般个人出于爱好学习或者规模较小的组织都会选择用云计算的方式来解决这个问题。
