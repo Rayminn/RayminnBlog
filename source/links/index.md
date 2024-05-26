@@ -83,7 +83,7 @@ title: 友情链接
                <img class="ava" src="https://www.ohdragonboi.cn/images/%E5%93%88%E5%93%88.jpg" />
                <div class="card-header">
                   <div>
-                     <a href="https://www.ohdragonboi.cn">Oktica窝窝</a>
+                     <a href="https://www.setbun.com">Oktica窝窝</a>
                   </div>
                   <div class="info">多试试，总能找到什么</div>
                </div>
