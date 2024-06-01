@@ -9,8 +9,36 @@
     <atom:link href="https://blog.rayminn.top/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Tue, 21 May 2024 12:28:56 GMT</pubDate>
+    <pubDate>Sat, 01 Jun 2024 18:50:37 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>WSL报错灾难性故障解决方式</title>
+      <link>https://blog.rayminn.top/wsl-error240602/</link>
+      <guid>https://blog.rayminn.top/wsl-error240602/</guid>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 GMT</pubDate>
+      
+        
+        
+      <description>&lt;p&gt;手动获取github上WSL releases msixbundle安装包即可。。&lt;/p&gt;
+&lt;p&gt;好奇怪的bug。。。&lt;/p&gt;
+&lt;p&gt;每次开vsc都报错烦死我了！！！&lt;/p&gt;
+&lt;p&gt;终于试出来了，怒发blog&lt;/p&gt;
+</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<p>手动获取github上WSL releases msixbundle安装包即可。。</p><p>好奇怪的bug。。。</p><p>每次开vsc都报错烦死我了！！！</p><p>终于试出来了，怒发blog</p>]]></content:encoded>
+      
+      
+      <category domain="https://blog.rayminn.top/categories/ICPC-OI/">ICPC/OI</category>
+      
+      
+      
+      <comments>https://blog.rayminn.top/wsl-error240602/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>数模算法之插值与拟合</title>
