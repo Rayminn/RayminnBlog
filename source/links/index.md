@@ -80,7 +80,7 @@ title: 友情链接
                </div>
             </div>
             <div class="card">
-               <img class="ava" src="https://www.ohdragonboi.cn/images/%E5%93%88%E5%93%88.jpg" />
+               <img class="ava" src="https://cdn.jsdelivr.net/gh/FrederickAsYou/upyun-rhimgcdn@img/upload/%E5%93%88%E5%93%88.jpg" />
                <div class="card-header">
                   <div>
                      <a href="https://www.setbun.com">Oktica窝窝</a>
