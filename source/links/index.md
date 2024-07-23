@@ -102,21 +102,6 @@ title: 友情链接
    </div>
 </div>
 
-# 友链朋友圈
-
-<div class="post-content">
-<div id="cf-container">Loading...</div>
-</div>
-
-<script type="text/javascript">
-  var fdataUser = {
-    apiurl: 'https://friends-circle.rayminn.top/'
-  }
-</script>
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Rayminn/img/cdn/fcircle.css">
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/Rayminn/img/cdn/fcircle-a.js"></script>
-
 # 互加友链
 
 [邮箱](mailto:leiyiming@rayminn.top)或在评论区留言，请附上网站名称、地址、简介和头像链接。
