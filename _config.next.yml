@@ -933,7 +933,7 @@ images: images
 
 giscus:
   enable: true
-  repo: Rayminn/RayminnBlog # Github repository name
+  repo: Rayminn/blog.rayminn.top # Github repository name
   repo_id: R_kgDOLyoHvA # Github repository id
   category: Announcements # Github discussion category
   category_id: DIC_kwDOLyoHvM4Ce7H7 # Github discussion category id
